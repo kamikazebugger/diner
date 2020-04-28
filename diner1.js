@@ -29,7 +29,7 @@ while (entreeOrder ==  false) {
                 alert("Great choice!")
             } if (side == 4 || side == 5 || side == 6) {
                 order = Number(entree) + Number(side);
-                alert("Your total is " + order + ". Thank you, please come again.");
+                alert("Your total is $" + order + ". Thank you, please come again.");
                 entreeOrder = true;
             } else {
                 alert("I don't get it... try again.");
